@@ -1,0 +1,52 @@
+* {
+  background: rgba(221, 221, 221, 0.637);
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+  }
+
+body{
+  line-height: 1.5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 85px;
+}
+
+h2{
+  text-align: center;
+  font-size: 200%;
+  color: rgb(240, 156, 0);
+}
+
+.sign_up{
+  display: flex;
+}
+
+button{
+  width: auto;
+  padding: auto;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 165, 0);
+  border-radius: 5px;
+}
+
+button:hover{
+  background: rgba(0, 0, 0, 0.548);
+}
+
+.container{
+  flex: 50%;
+  padding: 20px;
+  height: 500px;
+  overflow: auto;
+  border-style: groove;
+  border-width: thick;
+}
+
+img{
+  width: 220px;
+  height: auto;
+}
